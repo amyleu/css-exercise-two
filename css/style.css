@@ -1,6 +1,18 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: ##FFFFFF;
+  color: ##0D0066;
+  font-size: 16px
+  background-image: url(images/bloc logo.png);
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 nav {
@@ -10,7 +22,13 @@ nav {
   width: 100%;
 }
 
+a {
+  text-decoration: none;
+  text-decoration: underline;
+  }
+
 .logo {
+  background-image: url(images/bloc-logo.png); /** do I need this here? **/
   margin: 20px;
   width: 100px;
 }
